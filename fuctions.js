@@ -11,7 +11,7 @@ function f1(params) {
 
 function add(numbers) {
     let result = 0;
-    if ((typeof(numbers) !== 'object')  numbers.length <= 1) {
+    if ((typeof(numbers)) !== 'object')  (numbers.length <= 1) {
         return "Les paramètres sont mal définis";
     }
 
@@ -28,7 +28,7 @@ function add(numbers) {
 function sub(numbers) {
     let result;
 
-    if ((typeof(numbers) !== 'object')  numbers.length <= 1) {
+    if ((typeof(numbers)) !== 'object')  (numbers.length <= 1) {
         return "Les paramètres sont mal définis";
     }
 
@@ -45,7 +45,7 @@ function sub(numbers) {
 function sum(numbers) {
     let result = 1;
 
-    if ((typeof(numbers) !== 'object')  numbers.length <= 1) {
+    if ((typeof(numbers)) !== 'object')  (numbers.length <= 1) {
         return "Les paramètres sont mal définis";
     }
 
@@ -59,7 +59,7 @@ function sum(numbers) {
 function divide(numbers) {
     let result = 1;
 
-    if ((typeof(numbers) !== 'object')  numbers.length <= 1) {
+    if ((typeof(numbers) !== 'object'))  (numbers.length <= 1) {
         return "Les paramètres sont mal définis";
     }
 

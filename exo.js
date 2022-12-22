@@ -1,3 +1,5 @@
+
+
 var nom = "john"
 console.log(nom);
 var nom = "jane"
@@ -55,3 +57,37 @@ console.log(numbers)
 
 //creer une liste de 1 a 5, ajoute le 6,puis supprime le 6 (on aime pas les 6 ici)
 
+number = 12
+console.log(number)
+function isEven(number) {
+    if (number % 2 === 0){
+        return true
+    }
+    return false
+}
+console.log(isEven(number))
+
+let sommes = 0
+let tableur = [4, 8, 123, 42, 98]
+function total(tableur){
+    for (let i = 0; i < tableur.length; i++) {
+        sommes = tableur[i]+sommes;
+    }
+    return sommes
+}
+console.log(total(tableur))
+
+//const est une valeur qui ne change pas (constante)
+//let est une variable,donc peut changer 
+verlan = "nurb ud tse'c tpircsavaj eL"
+function reverseStr(verlan) {
+ 
+return verlan.split("").reverse().join("")
+
+} 
+console.log(reverseStr(verlan))
+
+
+
+//split et join sont très important,tu peux selectionner par exemple tout les r dans un mot
+//choisir les mots 
