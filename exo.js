@@ -1,8 +1,8 @@
 
 
-var nom = "john"
+let nom = "john"
 console.log(nom);
-var nom = "jane"
+let nom = "jane"
 console.log(nom);
 //permet d'attribuer le nom john a la variable "nom"
 //ensuite supprime le nom john pour renommer la variable "nom" en jane.
