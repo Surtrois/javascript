@@ -14,7 +14,7 @@ console.log("Hello world")
 
 let response = prompt('ça va ?')
 
-console.log response
+console.log(response)
 
 //alert = prompt mais on peu pas ecrire
 //confirme c'est le bouton valider ou annuler
